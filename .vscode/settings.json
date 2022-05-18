@@ -1,0 +1,10 @@
+{
+  "workbench.tree.indent": 10,
+  "json.schemas": [
+  
+  ],
+  
+  "emmet.includeLanguages":{
+    "javascript" : "javascriptreact"
+  }
+}
