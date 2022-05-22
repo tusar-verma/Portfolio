@@ -1,8 +1,13 @@
-.projectImg {
-  height: 200px;
-  width: auto;
-}
 
 .aboutme {
   width: 50%;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background: rgb(115, 119, 123);
+  color: rgb(255, 255, 255);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: large;
 }
