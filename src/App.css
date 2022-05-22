@@ -6,8 +6,9 @@
 html, body {
   margin: 0;
   height: 100%;
-  background: rgb(115, 119, 123);
-  color: rgb(255, 255, 255);
+  background: rgb(220, 217, 217);
+  color: rgb(8, 0, 102);
+  font-weight: 900;
   font-family: 'Josefin Sans', sans-serif;
   font-size: large;
 }
