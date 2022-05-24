@@ -9,12 +9,13 @@
 }
 
 #profilepic {
-  height: 250px;
-  width: 250px;
-  margin: 20px;
+  width: 30%;
+  padding: 20px;
   border-radius: 100%;
+  flex-shrink: 1;
 }
 
 .description {
   max-width: 70%;
+  flex-shrink: 2;
 }
