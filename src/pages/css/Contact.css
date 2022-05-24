@@ -2,3 +2,48 @@ a {
   text-decoration: none;
   color: black;
 }
+
+#formTextArea {
+  resize: none;
+  width: 100%;
+}
+
+#contactContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#formContainer {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+}
+
+#inputContainers {
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+}
+
+.inputsForm {
+  flex-grow: 1;
+}
+
+#iconsContainer {
+  margin: 10px;
+}
+
+.icon {
+  margin: 20px;
+}
+
+input {
+  width: 90%;
+}
+
+label {
+  display: block;
+}
