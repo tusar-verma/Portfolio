@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7106bf7.css",
-    "main.js": "/static/js/main.e401b278.js",
-    "static/media/profile.jpg": "/static/media/profile.853561cc4c8eaded8157.jpg",
-    "static/media/sketchpad.png": "/static/media/sketchpad.c35b794ac732c91335df.png",
-    "static/media/calculator.png": "/static/media/calculator.76052eb8dc165eb1ac3b.png",
-    "static/media/rockpaperscissors.png": "/static/media/rockpaperscissors.3e99cd062b960d067f2c.png",
-    "index.html": "/index.html",
-    "main.a7106bf7.css.map": "/static/css/main.a7106bf7.css.map",
-    "main.e401b278.js.map": "/static/js/main.e401b278.js.map"
+    "main.css": "/Portfolio/static/css/main.a7106bf7.css",
+    "main.js": "/Portfolio/static/js/main.eb525994.js",
+    "static/media/profile.jpg": "/Portfolio/static/media/profile.853561cc4c8eaded8157.jpg",
+    "static/media/sketchpad.png": "/Portfolio/static/media/sketchpad.c35b794ac732c91335df.png",
+    "static/media/calculator.png": "/Portfolio/static/media/calculator.76052eb8dc165eb1ac3b.png",
+    "static/media/rockpaperscissors.png": "/Portfolio/static/media/rockpaperscissors.3e99cd062b960d067f2c.png",
+    "index.html": "/Portfolio/index.html",
+    "main.a7106bf7.css.map": "/Portfolio/static/css/main.a7106bf7.css.map",
+    "main.eb525994.js.map": "/Portfolio/static/js/main.eb525994.js.map"
   },
   "entrypoints": [
     "static/css/main.a7106bf7.css",
-    "static/js/main.e401b278.js"
+    "static/js/main.eb525994.js"
   ]
 }
