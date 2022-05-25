@@ -1,16 +1,27 @@
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(8, 0, 102);
+}
+
+label {
+  display: block;
 }
 
 #formTextArea {
   resize: none;
-  width: 100%;
+  width: 100%;	
+  /* Estas 3 lineas corrigen un bug visual del
+  textbox que hace que se vea fuera del contenedor
+  fuente: https://davidwalsh.name/textarea-width */
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  padding: 5px;
+	width: 100%;
 }
 
-#contactContainer {
+#contact {
   display: flex;
-  width: 100%;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -22,28 +33,47 @@ a {
   flex-direction: column;
 }
 
-#inputContainers {
+#inputsContainer {
   display: flex;
   text-align: start;
   justify-content: space-between;
-}
-
-.inputsForm {
-  flex-grow: 1;
 }
 
 #iconsContainer {
   margin: 10px;
 }
 
+.input {
+  width: 45%;
+}
+
+.inputText {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#submitBtn {
+  width: 40%;
+  margin-top: 30px;
+  text-decoration: none;
+  background-color: white;
+  color: rgb(8, 0, 102);
+  border: 2px solid rgb(8, 0, 102); /* Green */
+  font-size: 0.75em;
+  border-radius: 6px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.323);
+
+  transition-duration: 0.2s;
+}
+
+#submitBtn:hover {  
+  background-color: rgb(8, 0, 102); /* Green */
+  color: white;
+}
+
+
 .icon {
   margin: 20px;
-}
-
-input {
-  width: 90%;
-}
-
-label {
-  display: block;
 }

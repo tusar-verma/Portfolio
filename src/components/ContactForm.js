@@ -4,7 +4,7 @@ function ContactForm() {
   return (
     <div id="formContainer">
       <p>Dejame tu mensaje</p>
-      <form action="#">
+      <form id="contactForm" action="#">
         <textarea name="taxtArea" 
                   placeholder="Escriba su mensaje aquí" 
                   cols="50"
@@ -12,7 +12,7 @@ function ContactForm() {
                   id="formTextArea"
         >
         </textarea>
-        <div id="inputContainers">
+        <div id="inputsContainer">
           <InputForm inputId="nombre"
                      inputPlaceholder=""
                      label="Nombre"
@@ -22,10 +22,14 @@ function ContactForm() {
                      label="Mail"
           />
         </div>
-        <input type="submit" value="Enviar" />
-      </form>
+      </form>      
+      <input id="submitBtn" type="submit" value="Enviar" form="contactForm" onSubmit={validaciones}/>
     </div>
   )
+}
+
+function validaciones () {
+  
 }
 
 export default ContactForm

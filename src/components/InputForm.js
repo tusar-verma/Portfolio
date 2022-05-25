@@ -1,8 +1,8 @@
 function InputForm({label, inputId, inputPlaceholder}) {
   return (
-    <div className="inputsForm">    
+    <div className="input">    
       <label htmlFor={label}>{label}</label>
-      <input type="text" name="name" placeholder={inputPlaceholder} id={inputId} />
+      <input className="inputText" type="text" name="name" placeholder={inputPlaceholder} id={inputId} />
     </div>
   )
 }

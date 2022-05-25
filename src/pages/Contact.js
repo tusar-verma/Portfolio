@@ -7,7 +7,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 function Contact() {
   return (
-    <div id="contactContainer">
+    <div id="contact">
       <div id="iconsContainer">
         <a className='icon' href="https://github.com/tusar-verma" target={"_blank"} rel="noreferrer">
           <FontAwesomeIcon icon={faGithub} size="4x"/>
