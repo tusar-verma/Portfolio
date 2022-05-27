@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: center;
   margin: 20px 20px;
-
+  padding: 2px;
 }
 
 .projectContainer:hover {  
@@ -27,4 +27,22 @@
 
 @keyframes agrandar {
   to {transform: scale(1.1,1.1);}
+}
+
+@media only screen and (max-width: 600px) {
+  .projectImg {
+    height: 100px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .projectImg {
+    height: 150px;
+  }
+
+}
+@media only screen and (min-width: 992px) {
+  .projectImg {
+    height: 200px;
+  }
 }

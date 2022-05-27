@@ -29,7 +29,8 @@ label {
 
 #formContainer {
   display: flex;
-  width: 40%;
+  width: 100%;
+  max-width: 300px;
   flex-direction: column;
 }
 
