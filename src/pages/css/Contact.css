@@ -40,9 +40,6 @@ label {
   justify-content: space-between;
 }
 
-#iconsContainer {
-  margin: 10px;
-}
 
 .input {
   width: 45%;
@@ -74,7 +71,3 @@ label {
   color: white;
 }
 
-
-.icon {
-  margin: 20px;
-}

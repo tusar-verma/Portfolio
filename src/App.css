@@ -13,8 +13,10 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  justify-content: space-between;
   height: 100%;
 }
+
 
 
 @media only screen and (max-width: 600px) {

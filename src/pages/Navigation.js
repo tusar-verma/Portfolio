@@ -1,5 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import "./css/Navigation.css"
+import Footer from "../components/Footer";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faBars} from "@fortawesome/free-solid-svg-icons"
 
@@ -15,6 +16,7 @@ const Navigation = () => {
         <Link className="link" to="/Contact">Contacto</Link>
       </nav>
       <Outlet />
+      <Footer/>
     </>
   )
 };
